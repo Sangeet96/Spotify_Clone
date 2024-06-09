@@ -1,7 +1,9 @@
 console.log("hello update");
 
 async function GetSongs() {
-    let songs = await fetch(`Songs/${folder}/`,{mode: 'no-cors'});
+    let songs = await fetch(`Songs/${folder}/`,{mode: 'no-cors'}).catch(error => {
+  console.log("cant fetch");
+});
     let result = await songs.text();
 
     let div = document.createElement("div");
