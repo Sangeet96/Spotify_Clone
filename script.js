@@ -1,7 +1,7 @@
 console.log("hello update");
 
 async function GetSongs() {
-    let songs = await fetch(`https://drive.google.com/drive/folders/14jS2QB7awfs2Y5z2x4nysns-x5yGtone?usp=sharing`);
+    let songs = await fetch(`Songs/${folder}/`);
     let result = await songs.text();
 
     let div = document.createElement("div");
