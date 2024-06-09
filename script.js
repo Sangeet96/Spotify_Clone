@@ -1,7 +1,7 @@
 console.log("hello update");
 
 async function GetSongs() {
-    let songs = await fetch(`Songs/${folder}/`);
+    let songs = await fetch(`https://github.com/Sangeet96/Songs/${folder}/`);
     let result = await songs.text();
 
     let div = document.createElement("div");
