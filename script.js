@@ -1,4 +1,4 @@
-console.log("hello");
+console.log("hello update");
 
 async function GetSongs() {
     let songs = await fetch(`Songs/${folder}/`);
