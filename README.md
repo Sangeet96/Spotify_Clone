@@ -22,4 +22,5 @@ Event Handling: I explored the process of capturing user events, such as button 
 Project Planning & Execution: I have acquired significant expertise in the process of strategizing and implementing a web development project, which encompasses tasks such as structuring code, conducting testing, and potentially utilizing version control.
 
 The deployment of this project has been accomplished effectively with the utilization of webhostmost.com.
+
 Project link: https://spotifysangeet.freewebhostmost.com/
