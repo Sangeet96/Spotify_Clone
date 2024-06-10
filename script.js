@@ -1,4 +1,4 @@
-console.log("hello update");
+console.log("hello");
 
 async function GetSongs() {
     let songs = await fetch(`https://drive.google.com/drive/folders/14jS2QB7awfs2Y5z2x4nysns-x5yGtone?usp=sharing/`,{mode: 'no-cors'}).catch(error => {
