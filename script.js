@@ -86,7 +86,7 @@ console.log(folder);
 
 async function main() {
     await GetSongs();
-    let first_song = Songs[0].replaceAll("%20"," ");
+    // let first_song = Songs[0].replaceAll("%20"," ");
     PlayMusic(`Songs/${folder}/` + first_song + ".mp3",1);
 
     await DisplaySongs();
